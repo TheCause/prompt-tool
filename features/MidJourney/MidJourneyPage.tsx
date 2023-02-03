@@ -271,6 +271,33 @@ const MidJourneyPage = () => {
           <p>Bookmark this page by pressing Cmd/Ctrl + D </p>
         </div>
       </div>
+      <div className="flex justify-center bg-neutral-900 p-8">
+        <div className="bg-purple-600 p-4 rounded-xl flex flex-col gap-4">
+          <p className="text-lg font-bold">Leap API ✨</p>
+          <iframe
+            width="full"
+            src="https://www.youtube.com/embed/exuI5eKVHFE"
+            height={315}
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen="true"
+            className="rounded-md"
+          ></iframe>
+          <p className="text-lg">
+            Add AI image generation, fine tuning, and editing to your own app in
+            minutes.
+          </p>
+          <a
+            href="https://leapml.dev/?source=promptTool"
+            className="w-full"
+            target={"_blank"}
+          >
+            <button className="bg-purple-900 hover:bg-purple-800 p-2 rounded-md text-white w-full">
+              Lean More
+            </button>
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
