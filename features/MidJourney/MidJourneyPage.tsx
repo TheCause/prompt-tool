@@ -280,6 +280,8 @@ const MidJourneyPage = () => {
             height={315}
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            // Ignore the error
+            // @ts-ignore
             allowfullscreen="true"
             className="rounded-md"
           ></iframe>
